@@ -8,7 +8,7 @@ function App() {
       <header>
         <Navbar />
       </header>
-    
+    <p>This para is available only in the dev branch</p>
 
 {/* Section to add New Items */}
 
