@@ -33,10 +33,28 @@ function App() {
   <div className="container">
     <div className="row">
       <div className="col-lg-3 col-md-3 col-12">
-        <div className="btn bg-primary text-white">Requirement Name</div>
+      <div className="dropdown">
+        <button type="button" className="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          Requirement Name
+        </button>
+        <div className="dropdown-menu">
+          <div className="dropdown-item" onClick={()=>{console.log('hello')}}>Option 1</div>
+          <div className="dropdown-item" onClick={()=>{console.log('hello')}}>Option 2</div>
+          <div className="dropdown-item" onClick={()=>{console.log('hello')}}>Option 3</div>
+        </div>
+      </div>
       </div>
       <div className="col-lg-3 col-md-3 col-12">
-        <div className="btn bg-primary text-white">WLM Short Name</div>
+      <div className="dropdown">
+        <button type="button" className="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        WLM Short Name
+        </button>
+        <div className="dropdown-menu">
+          <div className="dropdown-item" onClick={()=>{console.log('hello')}}>Option 1</div>
+          <div className="dropdown-item" onClick={()=>{console.log('hello')}}>Option 2</div>
+          <div className="dropdown-item" onClick={()=>{console.log('hello')}}>Option 3</div>
+        </div>
+      </div>
       </div>
       <div className="col-lg-3 col-md-3 col-12">
         <div className="btn bg-success  text-white">Submit</div>
